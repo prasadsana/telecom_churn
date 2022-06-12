@@ -48,6 +48,15 @@ The **‘churn’** phase: In this phase, the customer is said to have churned. 
 
 In this case, since we are working over a four-month window, the first two months are the ‘good’ phase, the third month is the ‘action’ phase, while the fourth month is the ‘churn’ phase.
 
+### Data Dictionary
+The dataset can be download using this [link](https://drive.google.com/file/d/1SWnADIda31mVFevFcfkGtcgBHTKKI94J/view). 
+
+[Data Dictionary - Telecom Churn](https://github.com/prasadsana/telecom_churn/blob/main/Data%2BDictionary-%2BTelecom%2BChurn%2BCase%2BStudy.xlsx)
+
+The data dictionary contains meanings of abbreviations. Some frequent ones are loc (local), IC (incoming), OG (outgoing), T2T (telecom operator to telecom operator), T2O (telecom operator to another operator), RECH (recharge) etc.
+
+The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to the months 6, 7, 8, 9 respectively.
+
 ### Data Preparation
 The following data preparation steps are crucial for this problem:
 1. Derive new features
